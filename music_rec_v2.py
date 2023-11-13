@@ -14,8 +14,8 @@ import re
 
 # Spotify API setup
 sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
-    client_id='76ff1108754147b0b59b9beb48e6af37',
-    client_secret='32a408639a054cfead2b0432ac5b1f59'
+    client_id='',
+    client_secret=''
 ))
 
 # Define features at the top of your script
